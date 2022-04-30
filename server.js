@@ -8,6 +8,8 @@ const inquirer = require ("inquirer");
 const db = require("/config.connection.js");
 const Choices = require('inquirer/lib/objects/choices');
 
+const {viewDepartment} = require ('./queries.js');
+
 
 const promptUser = () => {
 
