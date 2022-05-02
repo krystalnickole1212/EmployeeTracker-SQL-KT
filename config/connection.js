@@ -6,12 +6,12 @@ const db = mysql.createConnection(
   {
     host: 'localhost',
     //your sql username
-    user: process.env.DB.USER,
+    user: 'root',
     //your sql password
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME,
+    password: '1213tuttle',
+    database: 'employeeDB'
   },
-  console.log('Connected to the election database.')
+  console.log('Connected to the employee database.')
 );
 
 module.exports = db;

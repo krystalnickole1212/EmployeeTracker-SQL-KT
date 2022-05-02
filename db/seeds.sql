@@ -7,7 +7,7 @@ VALUES
 ('science');
 
 INSERT INTO role 
-(title, salart, department_id)
+(title, salary, department_id)
 VALUES 
 ('manager', 30000, 2), 
 ('scientist', 20000, 2);
